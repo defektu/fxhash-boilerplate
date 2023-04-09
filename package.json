@@ -9,6 +9,7 @@
   "scripts": {
     "postinstall": "node ./lib/scripts/install.js",
     "start": "node ./lib/scripts/start.js",
+	"watch": "nodemon ./lib/scripts/start.js",
     "start:project": "webpack serve --config ./lib/config/webpack.config.dev.js",
     "build": "webpack --config ./lib/config/webpack.config.prod.js"
   },
